@@ -5,52 +5,73 @@
 }
 body {
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: #14213D;
   background-color: #e5e5e5;
-  line-height: 1.5;
-}
-h1 {
-  background: #e5e5e5;
-  color: #fca311;
   margin: 0;
-  padding-left: 15px;
-  padding-right: 15px;
+}
+header {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
 }
 header h1 {
-  display: inline;
+  color: #fca311;
   font-size: 90px;
 }
 header nav {
-  padding-top: 15px;
-  margin-right: 2px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
   display: flex;
+}
+
+
+header nav ul {
+  display: flex;
+}
+header nav ul a {
+  display: flex;
+  flex-flow: column nowrap;  /*main axis up and down*/
   justify-content: flex-end;
-  padding-bottom: 15px;
-  
+  margin: 5px;  
 }
-header nav ul li {
-  display: inline-block;
-  margin-left: 25px;
+header nav ul a li {
+  margin-bottom: 5px;
 }
-a {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header nav ul a li {
+
+  display: inline;
+  margin-left: 30px;
   color: #fca311;
   text-decoration: 25px;
+  text-decoration: underline;
 }
 
-/* p {
-  font-size: 16px;
-} */
-
 figure.hero-image {
-  height: 300px;
+  height: 200px;
   width: 100%;
   background-image: url("https://media.istockphoto.com/photos/white-chaotic-multi-layered-planes-3d-illustration-picture-id498535442?k=20&m=498535442&s=612x612&w=0&h=RJ30Y3nyYQ8R1jEksfoIbiaWszir6I4NTgP4uov_cCM=");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  opacity: 40%;
 }
 .hero-text {
   text-align: center;
@@ -60,13 +81,14 @@ figure.hero-image {
   transform: translate(-50%, -50%);
   color:#14213D;
   font-size: 30px;
+  opacity: 100%;
 }
 main {
   display: flex;
   margin-top: 2%;
   flex-wrap: wrap;
 }
-.box {
+.box-card {
   flex: 0 0 0;
   justify-content: space-between;
   padding: 60px;
@@ -74,15 +96,26 @@ main {
   color: #fca311;
 }
 
-.box header {
+.box-card header {
   padding: 20px;
   background: #14213D;
   color: #fff;
 }
-.box img {
+.box-card img {
   width: 100%;
   min-width: 725px;
 }
+
+
+
+/* a {
+  color: #fca311;
+  text-decoration: 25px;
+} */
+
+/* p {
+  font-size: 16px;
+} */
 
 /* body {
   background-color: aliceblue;
