@@ -88,34 +88,55 @@ main {
 }
 
 /* Section */
-section#about-me h2 {
-    text-align: center;
-}
-.about-me-bio {
+section.about-me {
   border: var(--header-light) 5px dotted;
   color: var(--box-card-dark);
   margin-bottom: 50px;
   padding: 30px;
 }
-
-
-section#projects h2 {
+section.about-me h2 {
   text-align: center;
 }
+section.about-me article img {
+  width: 100%;
+  height: auto;
+}
+
+section.projects {
+  flex: 4;
+  background-color: var(--background-color);
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section.projects h2 { 
+  text-align: center;
+}
+
 .box-card {
-  flex: 0 0 0;
-  border: #fca311 5px dotted;
+  flex: 0 0 0px;
+  border: var(--header-light) 5px dotted;
+  border-radius: 20px;
   justify-content: space-between;
   padding: 10px;
   background: var(--background-color);
   color: var(--header-light);
-  margin-bottom: 10px;
-  
+  margin: 10px;
+}
+.box-card:hover {
+  position: relative;
+  top: -25px;
+  left: -35px;
+  width: 500px;
+  height: auto;
+  display: block;
+  z-index: 99;
 }
 
 .box-card h3 {
   padding: 20px;
-  background: var(--box-card-dark);
+  background: var(--footer-light);
   color: var(--light);
 }
 .box-card img {
@@ -153,6 +174,13 @@ footer h2 {
   color: var(--light);
   font-size: 20px;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
 }
 
 

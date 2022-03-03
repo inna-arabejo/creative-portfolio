@@ -1,10 +1,7 @@
-# Creative Portfolio
+# Proto Portfolio: The Origin of my Portfolio
 
-## Task of refactoring the Horiseon webpage.
-Create
-
-## Why is web accessability important?
-When  
+## Description
+Create a portfolio that displays samples of work I have done. These portfolios will assess my skills if I am a good candidate for a position. An effective portfolio highlights  
 
 ## Screenshot
 ![]()
