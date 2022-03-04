@@ -163,7 +163,7 @@ section.projects h2 {
 
 .box-card#first-card img{
   width: 1200px;
-  height: 500px
+  height: 500px;
 }
 section div article p {
   font-size: 15px;
@@ -215,35 +215,43 @@ footer h2 {
   margin: 0;
   padding: 30px;
   color: var(--light);
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: underline;
 }
 
-@media screen and (max-width: 480px) { 
-  body {
-    
+
+/* @media screen and (min-width: 500px) { 
+  p {
+    font-size: .75rem;
   }
 } 
-@media screen and (min-width: 481px) and (max-width: 767px) {
-  body {
-
+@media screen and (min-width: 600px) { 
+  p {
+    font-size: 1rem;
   }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  body {
+} 
+@media screen and (min-width: 800px) { 
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+} 
+@media screen and (min-width: 1000px) { 
+  p {
+    font-size: 2rem;
+    line-height: 2.0;
+  }
+}  */
+/* @media screen and (max-width:1200px) and (min-width:768px) {
   
-  }
 }
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
-  body {
- 
-  }
-}
-@media screen and (min-width: 1281px) {
-  body {
-    
-  }
-}
+@media (max-width:1024px) {
 
+}
+@media (max-width:768px)
 
+desktop:1200px
+laptop:1024px
+tablet:768px
+phone:480px */
 
