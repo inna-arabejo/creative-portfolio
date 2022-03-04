@@ -1,10 +1,9 @@
 :root {
-  --dark: #000;
   --box-card-dark: #14213D;
   --header-light: #fca311;
   --footer-light: #0072bb;
   --background-header: #219ebc;
-  --background-color: #e5e5e5;
+  --background-color: #cae9ff;
   --light: #fff;
 }
 /*universal selector*/
@@ -87,31 +86,67 @@ main {
   flex-wrap: wrap;
 }
 
-/* Section */
+/* About Me section*/
 section.about-me {
   border: var(--header-light) 5px dotted;
   color: var(--box-card-dark);
   margin-bottom: 50px;
-  padding: 30px;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  border-radius: 20px;
 }
 section.about-me h2 {
+  padding-top: 20px;
+  display: block;
   text-align: center;
 }
-section.about-me article img {
-  width: 100%;
-  height: auto;
+section.about-me div {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+}
+section.about-me div img.profile-pic {
+  display:inline-flex;
+  width: 300px;
+  height: 300px;
+}
+section.about-me div.bio-about-me  {
+  display: inline;
+  border: var(--footer-light) 2px solid;
+  text-align: center;
+  font-size: 25px;
+  line-height: 35px;
 }
 
-section.projects {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Projects section */
+section.projects div {
   flex: 4;
   background-color: var(--background-color);
   padding: 20px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: wrap; 
+ justify-content: center;
 }
-section.projects h2 { 
-  text-align: center;
+section.projects h2 {
+  display: block;
+  text-align: center; 
+  margin: auto;
 }
 
 .box-card {
@@ -123,12 +158,19 @@ section.projects h2 {
   background: var(--background-color);
   color: var(--header-light);
   margin: 10px;
+  width: 100%;
+}
+
+.box-card#first-card img{
+  width: 1200px;
+  height: 500px
+}
+section div article p {
+  font-size: 15px;
+  font-weight: 700;
 }
 .box-card:hover {
   position: relative;
-  top: -25px;
-  left: -35px;
-  width: 500px;
   height: auto;
   display: block;
   z-index: 99;
@@ -156,12 +198,13 @@ section.projects h2 {
 
 
 
+
 #footer {
   margin-top: 10px;
   padding: 20px;
   background-color: var(--footer-light);
   text-align: center;
-  width: 100%;
+  
 }
 footer h2 {
   color: var(--light);
@@ -176,10 +219,29 @@ footer h2 {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 768px) {
-  main,
-  nav {
-    flex-direction: column;
+@media screen and (max-width: 480px) { 
+  body {
+    
+  }
+} 
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  body {
+
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+  
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  body {
+ 
+  }
+}
+@media screen and (min-width: 1281px) {
+  body {
+    
   }
 }
 
