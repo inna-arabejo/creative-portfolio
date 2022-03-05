@@ -15,7 +15,7 @@ For a satisfactory portfolio, the following requirements are met when:
 ![My creative portfolio](./Assets/css/images/proto-portfolio-final-page.png)
 
 ## Link To the Final Page
-[Link to Proto portfolio web page]https://https://inna-arabejo.github.io/creative-portfolio/
+[Link to Proto portfolio web page]https://inna-arabejo.github.io/creative-portfolio/
 
 ## Contributions
 Inpspiration from https://www.w3schools.com/css/default.asp and https://coolors.co/.
