@@ -2,8 +2,8 @@
   --box-card-dark: #14213D;
   --header-light: #fca311;
   --footer-light: #0072bb;
-  --background-header: #219ebc;
-  --background-color: #cae9ff;
+  --background-header: #3e739e;
+  --background-color: #6c7e8b;
   --light: #fff;
   --background: rgba(0, 0, 0, 0.6);
 }
@@ -30,16 +30,8 @@ header {
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: flex-start;
   align-content:center;   /*parent element of header h1 tag*/
-  background-color: var(--background-color);
-}
-
-header h1.main-header {
-  color: var(--header-light);
-  font-size: 90px;
-  font-weight: bold;
-  margin-right: 50%;
+  background-color: var(--footer-light);
 }
 
 /* Navigation Bar */
@@ -53,23 +45,24 @@ header nav {
 
 }
 
+header nav h1.main-header {
+  color: var(--header-light);
+  font-size: 60px;
+  font-weight: 900;
+  margin-right: 55%;
+}
+
+
 header nav ul {
   display: flex;   /*parent element of <a> tag*/
+ 
+  font-size: 25px;
 }
 
-header nav ul a {
-  display: flex;   /*parent elemnt of <li> tag*/
-  flex-flow: column nowrap;  /*main axis up and down*/
-  justify-content: flex-end;
-}
 
-header nav ul a li {
-  margin-right: 20px;
+
+header nav ul li a {
   color: var(--header-light);
-  text-decoration: 25px;
-  text-decoration: underline;
-  margin-bottom: 5px;
-  padding-right: 30px;
 }
 
 /*Main banner image of white angles and lines."*/
@@ -94,10 +87,13 @@ main {
 /* About Me section*/
 section.container {
   border: var(--header-light) 5px solid;
+  background-color: #ffe5bb;
   color: var(--box-card-dark);
   margin-bottom: 50px;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
   border-radius: 20px;
 }
 
@@ -108,7 +104,7 @@ section.container h2 {
 }
 
 section.container div {
-  padding: 40px;
+  padding: 15px;
   display: flex;
   align-items: center;
   margin-top: -15px;
@@ -116,13 +112,11 @@ section.container div {
 
 section.container div img.profile-pic {
   display: flex;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-radius: 20px;
   margin-top: -15px;
 }
 section.container div.bio-about-me  {
   display: inline;
-  border: var(--footer-light) 2px solid;
   text-align: center;
   font-size: 15px;
   line-height: 35px;

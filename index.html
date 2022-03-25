@@ -18,22 +18,30 @@
       <nav>
         <h1 class="main-header">Proto</h1>
         <ul>
-          <a href="#about-me"><li>About Me</li></a>
-          <a href="#projects"><li>Projects</li></a>
-          <a href="#contact"><li>Contact</li></a>
+          <li><a class="nav-link active" href="#about-me">About Me</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+              Links
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://docs.google.com/document/d/1Mt1woO_KcCSh00uh4HpG9IzzWvxyvXFWJBbJvsyI8KE/edit?usp=sharing">Resume</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </nav>
+
     </header>
-   
-    
-    <!--Image of white lines and angles-->
-    <!-- <figure class="hero-image"></figure> -->
 
     <!-- Main -->
     <main>
 
       <!-- About Me Section -->
-      <section class="container">
+      <section class="container" id="about-me">
         <h2>Inna Arabejo</h2>
         <div>
           <img src="./Assets/images/profile-pic.JPG" alt="My professional profile picture" class="profile-pic" width="150" height="200"/>
@@ -59,14 +67,14 @@
       </section>
         
         <!-- Section of Projects-->
-      <section class="projects">
+      <section class="projects" id="projects">
         <h2>Projects</h2>
         <div>
         <!-- Articles -->
           <article class="box-card" id="first-card" class="image-overlay">
             <h3>Featured - junkfood.</h3>
             <a target="_blank" href="https://inna-arabejo.github.io/g3p-junkfood/">
-              <img src="./Assets/images/junkfood.jpg" alt="First about me page" width="600" height="300" class="thumbnail"/>
+              <img src="./Assets/images/junkfood.jpg" alt="First about me page" width="600" height="400" class="thumbnail"/>
               <div class="image-overlay"></div>
             </a>
             <p>HTML/CSS</p>
@@ -128,7 +136,7 @@
         <ul id="contact">
           <a href="https://www.linkedin.com/in/inna-arabejo-449699171/"><li>LinkedIn</li></a>
           <a href="https://github.com/inna-arabejo"><li>GitHub</li></a>
-          <a href="https://docs.google.com/document/d/1Mt1woO_KcCSh00uh4HpG9IzzWvxyvXFWJBbJvsyI8KE/edit?usp=sharing"><li>Resume</li></a>
+          <a href="https://github.com/inna-arabejo/creative-portfolio"><li>Repository</li></a>
         </ul>
       </p>
     </footer>

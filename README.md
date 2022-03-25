@@ -1,4 +1,4 @@
-# Proto Portfolio: The Origin of my Portfolio
+# Proto: The origin of my portfolio
 
 ## Description
 Create a portfolio from scratch that displays projects you have done. These portfolios will assess your skills and show the thought process behind each project. Several projects created in the future will be added and displayed in this portfolio.
@@ -11,14 +11,14 @@ For a satisfactory portfolio, the following requirements are met when:
   - The image is clicked on, the application deploys to the actual site.
   - The Proto portfolio site can be resized to fit various screens and devices and is a responsive layout.
 
-## Technologies
+## Technologies Used
 - HTML, CSS, Bootstrap v4.6
 
 ## Screenshot
-![My creative portfolio](./Assets/css/images/proto-portfolio-final-page.png)
+![My creative portfolio](./Assets/images/proto-portfolio-final-page.png)
 
-## Link To the Final Page
-[Link to Proto portfolio web page](https://inna-arabejo.github.io/creative-portfolio/)
+## Link to the Final Page
+[Proto Portfolio](https://inna-arabejo.github.io/creative-portfolio/)
 
 ## Sources Used
 - https://www.w3schools.com/css/default.asp 
