@@ -263,6 +263,10 @@ footer h2 {
   div.bio-about-me {
     font-size: 25px;
   }
+  .box-card#first-card img{
+    width: 100%;
+    
+  }
   a img.thumbnail {
     min-width: 400px;
   }
@@ -270,50 +274,81 @@ footer h2 {
 @media screen and (min-width: 577px) and (max-width: 768px) {
   header nav {
     display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
   }
-  
+  header nav h1.main-header {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 60px;
+    margin-right: 5%;
+  }
+  .box-card#first-card img{
+    width: 100%;
+    
+  }
+  a img.thumbnail {
+    min-width: 400px;
+  }
   
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   header nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-content: flex-end;
+  }
+  header nav h1.main-header {
+    display: flex;
+    margin-right: 10%;
+    font-size: 60px;
   }
   .box-card#first-card img{
     width: 100%;
-    
   }
+  
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   header nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  header nav h1.main-header {
+    display: flex;
+    margin-right: 32.5%;
+    font-size: 60px;
   }
   .box-card#first-card img{
     width: 100%;
-    
   }
 }
-@media screen and (max-width: 1201px) {
+@media screen and (min-width: 1201px) and (max-width: 1283px) {
   header nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  header nav h1.main-header {
+    display: flex;
+    margin-right: 37.5%;
   }
   .box-card#first-card img{
     width: 100%;
-    
   }
 }
 
+@media screen and (min-width: 1284px) {
+  header nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+}
 
 
