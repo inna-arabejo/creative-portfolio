@@ -22,7 +22,8 @@ For a satisfactory portfolio, the following requirements are met when:
 
 ## Sources Used
 - https://www.w3schools.com/css/default.asp 
-- https://coolors.co/.
+- https://coolors.co/
+- https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
 
 ## License
 This code is licensed under MIT.

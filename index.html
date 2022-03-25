@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <title>Inna Arabejo - Proto Portfolio</title>
   </head>
-
+  
   <body>
+    <!-- https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
 
     <!-- Header -->
     <header>
       <!-- Nagivation Bar -->
-      <nav>
+      <nav class="nav">
         <h1 class="main-header">Proto</h1>
         <ul>
           <li><a class="nav-link active" href="#about-me">About Me</a></li>
@@ -25,10 +27,9 @@
               Links
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="https://docs.google.com/document/d/1Mt1woO_KcCSh00uh4HpG9IzzWvxyvXFWJBbJvsyI8KE/edit?usp=sharing">Resume</a>
-              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="https://github.com/inna-arabejo/creative-portfolio">Repository</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="https://docs.google.com/document/d/1Mt1woO_KcCSh00uh4HpG9IzzWvxyvXFWJBbJvsyI8KE/edit?usp=sharing">Resume</a>
             </div>
           </li>
           <li><a class="nav-link" href="#contact">Contact</a></li>
@@ -44,19 +45,16 @@
       <section class="container" id="about-me">
         <h2>Inna Arabejo</h2>
         <div>
-          <img src="./Assets/images/profile-pic.JPG" alt="My professional profile picture" class="profile-pic" width="150" height="200"/>
+          <img src="./Assets/images/profile-pic.JPG" alt="My professional profile picture" class="profile-pic" width="250" height="250"/>
           <div class="bio-about-me">
             <p>
-              This is Proto, the origin of my portfolio.
-            </p>
-            <p>
-              My name is Inna Arabejo, and I am an
+              This is Proto, the origin of my portfolio. My name is Inna Arabejo, and I am an
               aspiring software developer eager to make ground in the tech industry.
               I got interested in computer science 4 years ago when I attended a 
               Women Who Code meetup. I didn't know what specific career of computer science 
               I was going to pursue, but I knew coding was my niche.
-            </p>
-            <p>
+            </p> 
+            <p> 
               When I heard about web development, it thrilled me of the endless possibilities
               of creating a web page that I could proudly call my own. All with the use 
               of my handy brain and computer. So here I am embarking in my own boundless 
@@ -129,6 +127,8 @@
 
     </main>
 
+
+
     <!-- Footer -->
     <footer id="footer">
       <h2>Contact</h2>
@@ -136,7 +136,7 @@
         <ul id="contact">
           <a href="https://www.linkedin.com/in/inna-arabejo-449699171/"><li>LinkedIn</li></a>
           <a href="https://github.com/inna-arabejo"><li>GitHub</li></a>
-          <a href="https://github.com/inna-arabejo/creative-portfolio"><li>Repository</li></a>
+          <a href="mailto:iarabejo3@gmail.com?subject="><li>Email</li></a>
         </ul>
       </p>
     </footer>
