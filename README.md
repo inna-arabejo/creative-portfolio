@@ -11,11 +11,18 @@ For a satisfactory portfolio, the following requirements are met when:
   - The image is clicked on, the application deploys to the actual site.
   - The Proto portfolio site can be resized to fit various screens and devices and is a responsive layout.
 
+## Technologies
+- HTML, CSS, Bootstrap v4.6
+
 ## Screenshot
 ![My creative portfolio](./Assets/css/images/proto-portfolio-final-page.png)
 
 ## Link To the Final Page
-[Link to Proto portfolio web page]https://inna-arabejo.github.io/creative-portfolio/
+[Link to Proto portfolio web page](https://inna-arabejo.github.io/creative-portfolio/)
 
-## Contributions
-Inpspiration from https://www.w3schools.com/css/default.asp and https://coolors.co/.
+## Sources Used
+- https://www.w3schools.com/css/default.asp 
+- https://coolors.co/.
+
+## License
+This code is licensed under MIT.

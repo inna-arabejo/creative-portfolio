@@ -28,17 +28,18 @@ body {
 /* Header */
 header {
   width: 100%;
-  display: flex;   /*parent element of header h1 tag*/
+  display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-content:center;   /*parent element of header h1 tag*/
   background-color: var(--background-color);
 }
 
-header h1 {
+header h1.main-header {
   color: var(--header-light);
   font-size: 90px;
-  margin-left: 20px;
   font-weight: bold;
+  margin-right: 50%;
 }
 
 /* Navigation Bar */
@@ -46,6 +47,10 @@ header nav {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 35px;
   display: flex;  /*parent element of <ul> tag*/
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-content: flex-end;
+
 }
 
 header nav ul {
@@ -87,42 +92,39 @@ main {
 }
 
 /* About Me section*/
-section.about-me {
-  border: var(--header-light) 5px dotted;
+section.container {
+  border: var(--header-light) 5px solid;
   color: var(--box-card-dark);
   margin-bottom: 50px;
   display: flex;
   flex-flow: column nowrap;
-  width: 100%;
   border-radius: 20px;
 }
 
-section.about-me h2 {
+section.container h2 {
   padding-top: 20px;
   display: block;
   text-align: center;
 }
 
-section.about-me div {
+section.container div {
   padding: 40px;
   display: flex;
   align-items: center;
   margin-top: -15px;
 }
 
-section.about-me div img.profile-pic {
-  display:inline-flex;
-  width: 300px;
-  height: 300px;
+section.container div img.profile-pic {
+  display: flex;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   margin-top: -15px;
 }
-section.about-me div.bio-about-me  {
+section.container div.bio-about-me  {
   display: inline;
   border: var(--footer-light) 2px solid;
   text-align: center;
-  font-size: 25px;
+  font-size: 15px;
   line-height: 35px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -219,7 +221,7 @@ section div article p {
   padding: 20px;
   background-color: var(--footer-light);
   text-align: center;
-  
+  width: 100%;
 }
 
 footer h2 {
@@ -235,27 +237,108 @@ footer h2 {
   text-decoration: underline;
 }
 
-/* Media query for responsive layout */
-@media screen and (max-width: 992px) {
-  .box-card {
-    width: 50%;
-  }
-}
 
-@media screen and (max-width:768px) {
-  header nav ul {
-    display: none;
+
+
+
+
+
+
+
+
+
+
+/* Media query for responsive layout */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  header nav ul a li{
+    margin-left: 20px;
+    padding: 2px;
   }
+  .hero-image {
+  height: 200px;
+  width: 200%;
+  }
+  section.about-me {
+    margin-left: 150px;
+  }
+  section.about-me h2 {
+    padding-top: 20px;
+    text-align: center;
+    
+  }
+  section.about-me div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 120%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 50px;
+    
+  }
+  section.about-me div img {
+    border-top-right-radius: 20px;
+    padding-bottom: 15px;
+    margin-right: 90px;
+  }
+  section.about-me div div.bio-about-me {
+    font-size: 25px;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    width: 87%;
+    margin-right: 89px;
+  }
+  
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   header nav {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  main, .projects {
-    flex-direction: column;
+  .box-card#first-card img{
     width: 100%;
+    
   }
 }
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .box-card#first-card img{
+    width: 100%;
+    
+  }
+}
+@media screen and (max-width: 1201px) {
+  header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .box-card#first-card img{
+    width: 100%;
+    
+  }
+}
+
 
 

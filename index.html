@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="./Assets/css/reset.css"/>
     <link rel="stylesheet" href="./Assets/css/style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <title>Inna Arabejo - Proto Portfolio</title>
   </head>
 
@@ -13,10 +14,9 @@
 
     <!-- Header -->
     <header>
-      <h1 class="main-header">Proto</h1>
-
       <!-- Nagivation Bar -->
       <nav>
+        <h1 class="main-header">Proto</h1>
         <ul>
           <a href="#about-me"><li>About Me</li></a>
           <a href="#projects"><li>Projects</li></a>
@@ -24,26 +24,30 @@
         </ul>
       </nav>
     </header>
+   
     
     <!--Image of white lines and angles-->
-    <figure class="hero-image"></figure>
+    <!-- <figure class="hero-image"></figure> -->
 
     <!-- Main -->
     <main>
 
       <!-- About Me Section -->
-      <section id="about-me" class="about-me">
+      <section class="container">
         <h2>Inna Arabejo</h2>
         <div>
-          <img src="./Assets/css/images/profile-pic.JPG" alt="My professional profile picture" class="profile-pic" width="600" height="400"/>
+          <img src="./Assets/images/profile-pic.JPG" alt="My professional profile picture" class="profile-pic" width="150" height="200"/>
           <div class="bio-about-me">
             <p>
-              This is Proto, the origin of my portfolio. My name is Inna Arabejo.
+              This is Proto, the origin of my portfolio.
+            </p>
+            <p>
+              My name is Inna Arabejo, and I am an
+              aspiring software developer eager to make ground in the tech industry.
               I got interested in computer science 4 years ago when I attended a 
               Women Who Code meetup. I didn't know what specific career of computer science 
               I was going to pursue, but I knew coding was my niche.
             </p>
-
             <p>
               When I heard about web development, it thrilled me of the endless possibilities
               of creating a web page that I could proudly call my own. All with the use 
@@ -55,14 +59,14 @@
       </section>
         
         <!-- Section of Projects-->
-      <section class="projects" id="projects">
+      <section class="projects">
         <h2>Projects</h2>
         <div>
         <!-- Articles -->
           <article class="box-card" id="first-card" class="image-overlay">
-            <h3>Novice - About Me Page</h3>
-            <a target="_blank" href="https://inna-arabejo.github.io/prework-about-me/">
-              <img src="./Assets/css/images/about-me.jpg" alt="First about me page" width="600" height="300" class="thumbnail"/>
+            <h3>Featured - junkfood.</h3>
+            <a target="_blank" href="https://inna-arabejo.github.io/g3p-junkfood/">
+              <img src="./Assets/images/junkfood.jpg" alt="First about me page" width="600" height="300" class="thumbnail"/>
               <div class="image-overlay"></div>
             </a>
             <p>HTML/CSS</p>
@@ -71,7 +75,7 @@
           <article class="box-card">
             <h3>Advanced Beginner - Horiseon</h3>
             <a target="_blank" href="https://inna-arabejo.github.io/semantic-html/">
-              <img src="./Assets/css/images/search-engine-optimization.jpg" alt="Second site built of Horiseon web page" width="600" height="400" class="thumbnail"/>
+              <img src="./Assets/images/search-engine-optimization.jpg" alt="Second site built of Horiseon web page" width="600" height="400" class="thumbnail"/>
               <div class="image-overlay"></div>
             </a>
             <p>HTML/CSS</p>
@@ -80,16 +84,16 @@
           <article class="box-card">
             <h3>Advanced Beginner - Password Generator</h3>
             <a target="_blank" href="https://inna-arabejo.github.io/password-generator-js/">
-              <img src="./Assets/css/images/portfolio-password.jpg" alt="Password generator based on given prompt." width="600" height="400" class="thumbnail"/>
+              <img src="./Assets/images/portfolio-password.jpg" alt="Password generator based on given prompt." width="600" height="400" class="thumbnail"/>
               <div class="image-overlay"></div>
             </a>
             <p>HTML/CSS/JavaScript</p>
           </article>
           
           <article class="box-card">
-            <h3>Competent - TBD</h3>
-            <a target="_blank" href="https://via.placeholder.com/200">
-              <img src="https://via.placeholder.com/200" alt="placeholder img" width="600" height="400" class="thumbnail"/>
+            <h3>Competent - Daily Planner</h3>
+            <a target="_blank" href="https://inna-arabejo.github.io/daily-work-planner/">
+              <img src="./Assets/images/daily-planner-screenshot.jpg" alt="placeholder img" width="600" height="400" class="thumbnail"/>
               <div class="image-overlay"></div>
             </a>
             <p>HTML/CSS</p>
@@ -124,10 +128,14 @@
         <ul id="contact">
           <a href="https://www.linkedin.com/in/inna-arabejo-449699171/"><li>LinkedIn</li></a>
           <a href="https://github.com/inna-arabejo"><li>GitHub</li></a>
-          <a href="https://inna-arabejo.github.io/creative-portfolio/"><li>Portfolio</li></a>
+          <a href="https://docs.google.com/document/d/1Mt1woO_KcCSh00uh4HpG9IzzWvxyvXFWJBbJvsyI8KE/edit?usp=sharing"><li>Resume</li></a>
         </ul>
       </p>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
     
   </body>
 </html>
