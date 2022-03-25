@@ -48,30 +48,20 @@ header nav h1.main-header {
   color: var(--header-light);
   font-size: 60px;
   font-weight: 900;
-  margin-right: 55%;
+  margin-right: 60%;
 }
 
 header nav ul {
   display: flex;   /*parent element of <a> tag*/
- 
   font-size: 25px;
+  margin-top: 20px;
 }
 
 header nav ul li a {
+  display: flex;
   color: var(--header-light);
 }
 
-/*Main banner image of white angles and lines."*/
-/* .hero-image {
-  height: 200px;
-  width: 100%;
-  background-image: url("https://media.istockphoto.com/photos/white-chaotic-multi-layered-planes-3d-illustration-picture-id498535442?k=20&m=498535442&s=612x612&w=0&h=RJ30Y3nyYQ8R1jEksfoIbiaWszir6I4NTgP4uov_cCM=");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  opacity: 30%;
-} */
 
 /* Main */
 main {
@@ -205,44 +195,24 @@ section div article p {
 }
 
 
-#myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-}
-
-#myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
-}
-
-
 /* Footer */
 #footer {
-  margin-top: 10px;
-  padding: 20px;
   background-color: var(--footer-light);
   text-align: center;
   width: 100%;
+  margin-bottom: -20px;
 }
 
 footer h2 {
   color: var(--light);
+  padding-top: 10px;
 }
 
 #contact > a li{
   display: inline-block;
   margin: 0;
-  padding: 30px;
+  padding: 40px;
+  padding-top: 5px;
   color: var(--light);
   font-size: 25px;
   text-decoration: underline;
@@ -251,7 +221,7 @@ footer h2 {
 
 
 /* Media query for responsive layout */
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 480px) and (max-width: 576px) {
   header {
     display: flex;
     width: 100%;
@@ -294,7 +264,7 @@ footer h2 {
     font-size: 25px;
   }
   a img.thumbnail {
-    min-width: 500px;
+    min-width: 400px;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
