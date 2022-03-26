@@ -2,7 +2,7 @@
   --box-card-dark: #14213D;
   --header-light: #fca311;
   --footer-light: #0072bb;
-  --background-header: #3e739e;
+  
   --background-color: aliceblue;
   --light: #fff;
   --background: rgba(0, 0, 0, 0.6);
@@ -73,8 +73,7 @@ main {
 
 /* About Me section*/
 section.container {
-  border: var(--header-light) 5px solid;
-  background-color: #ffe5bb;
+  border: var(--footer-light) 3px solid;
   color: var(--box-card-dark);
   margin-bottom: 50px;
   display: flex;
@@ -134,7 +133,7 @@ section.projects h2 {
   color: var(--header-light);
   margin: 15px;
   width: 100%;
-  position: relative;
+  /* position: relative; */
 }
 
 .box-card#first-card img{
@@ -146,13 +145,7 @@ section div article p {
   font-size: 20px;
   font-weight: 700;
   padding-top: 5px;
-}
-
-.box-card:hover {
-  position: relative;
-  height: auto;
-  display: block;
-  z-index: 99;
+  margin-bottom: 5px;
 }
 
 .box-card h3 {
@@ -175,23 +168,13 @@ section div article p {
 
 /* Image hover overlay effect */
 .image-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: var(--background);
-  color: var(--light);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.25s;
-  border-radius: 20px;
+  opacity: 1;
+  transition: 0.25s;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 .image-overlay:hover {
-  opacity: 1;
+  opacity: 0.6;
 }
 
 
@@ -221,6 +204,66 @@ footer h2 {
 
 
 /* Media query for responsive layout */
+@media screen and (min-width: 375px) and (max-width: 479px) {
+  header {
+    display: flex;
+    width: 110%;
+  }
+  header nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  nav h1.main-header {
+    display: flex;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  nav ul{
+    font-size: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  main {
+    width: 110%;
+  }
+  section#about-me {
+    display: flex;
+    width: 100%;
+  }
+  section#about-me h2 {
+    padding-top: 20px;
+    text-align: center;
+    
+  }
+  section#about-me div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  section#about-me div img {
+    display: flex;
+    border-top-right-radius: 20px;
+    margin-top: 10px;
+  }
+  div.bio-about-me {
+    font-size: 25px;
+  }
+  .box-card#first-card img{
+    width: 50%;
+    
+  }
+  a img.thumbnail {
+    min-width: 300px;
+  }
+  #footer {
+    width: 110%;
+  }
+}
 @media screen and (min-width: 480px) and (max-width: 576px) {
   header {
     display: flex;
@@ -347,7 +390,8 @@ footer h2 {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-content: flex-end;
+  
   }
 }
 
