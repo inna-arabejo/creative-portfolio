@@ -18,6 +18,10 @@
   font-size: 50px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -29,7 +33,7 @@ header {
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
-  align-content:center;   /*parent element of header h1 tag*/
+  align-content:flex-end;   /*parent element of header h1 tag*/
   background-color: var(--footer-light);
 }
 
@@ -48,7 +52,7 @@ header nav h1.main-header {
   color: var(--header-light);
   font-size: 60px;
   font-weight: 900;
-  margin-right: 60%;
+  margin-right: 60%
 }
 
 header nav ul {
@@ -133,7 +137,7 @@ section.projects h2 {
   color: var(--header-light);
   margin: 15px;
   width: 100%;
-  /* position: relative; */
+  height: 100%;
 }
 
 .box-card#first-card img{
@@ -200,7 +204,6 @@ footer h2 {
   font-size: 25px;
   text-decoration: underline;
 }
-
 
 
 /* Media query for responsive layout */

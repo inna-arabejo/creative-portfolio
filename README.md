@@ -15,7 +15,8 @@ For a satisfactory portfolio, the following requirements are met when:
 - HTML, CSS, Bootstrap v4.6
 
 ## Screenshot
-![My creative portfolio](./Assets/images/proto-portfolio-final-page.png)
+![My creative portfolio](./Assets/images/readme-screenshot.jpg)
+![My creative portfolio](./Assets/images/portfolio.gif)
 
 ## Link to the Final Page
 [Proto Portfolio](https://inna-arabejo.github.io/creative-portfolio/)
@@ -23,7 +24,6 @@ For a satisfactory portfolio, the following requirements are met when:
 ## Sources Used
 - https://www.w3schools.com/css/default.asp 
 - https://coolors.co/
-- https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
 
 ## License
 This code is licensed under MIT.
