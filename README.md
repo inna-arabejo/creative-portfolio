@@ -18,7 +18,11 @@ For a satisfactory portfolio, the following requirements are met when:
 
 ## Screenshot
 ![My creative portfolio](./Assets/images/readme-screenshot.jpg)
-![My creative portfolio](./Assets/images/portfolio-gif.gif)
+![My creative portfolio](
+
+Uploading portfolio-mp4 (2).mp4…
+
+)
 
 ## Link to the Final Page
 [Proto Portfolio](https://inna-arabejo.github.io/creative-portfolio/)
