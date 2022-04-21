@@ -1,5 +1,7 @@
 # Proto: The origin of my portfolio
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 ## Description
 Create a portfolio from scratch that displays projects you have done. These portfolios will assess your skills and show the thought process behind each project. Several projects created in the future will be added and displayed in this portfolio.
 

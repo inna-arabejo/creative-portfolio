@@ -140,6 +140,8 @@ section.projects h2 {
   height: 100%;
 }
 
+
+/* Image hover text overlay effect */
 .image {
   position: relative;
   width: 600px;
@@ -149,7 +151,6 @@ section.projects h2 {
   display: block;
   width: 100%;
   height: 300px;
-  min-width: 550px;
 }
 
 .image-overlay {
@@ -185,12 +186,25 @@ section.projects h2 {
   transform: translateY(0);
 }
 
-.image-img#first-card {
-  width: 1200px;
-  height: 400px;
+.image-description {
+  text-align: center;
+}
+
+/* Image hover text overlay effect with the first card */
+.image#first-card {
+  position: relative;
+  width: 1000px;
+  height: 350px;
   display: block;
 }
 
+#first-card.image-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Repo and technologies used */
 section div article p {
   font-size: 20px;
   font-weight: 700;
@@ -206,26 +220,6 @@ section div article p {
   border-top-right-radius: 20px;
   font-size: 20px;
 }
-
-/* .box-card a div img {
-  width: 100%;
-  height: 300px;
-  min-width: 550px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  position: relative;
-}
-
-/* Image hover overlay effect */
-/* .image-overlay {
-  opacity: 1;
-  transition: 0.25s;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-.image-overlay:hover {
-  opacity: 0.6;
-}  */
 
 
 /* Footer */
