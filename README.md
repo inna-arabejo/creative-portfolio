@@ -32,11 +32,7 @@ For a satisfactory portfolio, the following requirements are met when:
 
 ## Screenshot
 ![My creative portfolio](./Assets/images/readme-screenshot.jpg)
-![My creative portfolio](
-
-Uploading portfolio-mp4 (2).mp4…
-
-)
+![My creative portfolio](./Assets/images/portfolio-gif.gif)
 
 ## Sources Used
 - https://www.w3schools.com/css/default.asp 
