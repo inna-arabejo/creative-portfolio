@@ -148,6 +148,8 @@ section.projects h2 {
 .image-img {
   display: block;
   width: 100%;
+  height: 300px;
+  min-width: 550px;
 }
 
 .image-overlay {
@@ -183,10 +185,11 @@ section.projects h2 {
   transform: translateY(0);
 }
 
-/* .box-card#first-card img{
-  min-width: 1200px;
+.image-img#first-card {
+  width: 1200px;
   height: 400px;
-} */
+  display: block;
+}
 
 section div article p {
   font-size: 20px;
