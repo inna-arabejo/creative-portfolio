@@ -120,6 +120,11 @@ section.container div.bio-about-me  {
   line-height: 35px;
 }
 
+/* Skills section */
+.my-skills {
+  background-color: #e2e2e2;
+}
+
 
 /* Projects section */
 section.projects div {
@@ -230,6 +235,9 @@ section div article p {
 }
 
 /* Contact Form */
+*.container{
+  font-size: 1.5em;
+}
 .container{
   width: 85%;
   background: #fff;
@@ -268,7 +276,7 @@ section div article p {
 }
 .content .left-side .details i{
   font-size: 30px;
-  color: #3e2093;
+  color: #0072bb;
   margin-bottom: 10px;
 }
 .content .left-side .details .topic{
@@ -277,17 +285,17 @@ section div article p {
 }
 .content .left-side .details .text-one,
 .content .left-side .details .text-two{
-  font-size: 14px;
-  color: #afafb6;
+  font-size: 18px;
+  color: #68686d;
 }
 .container .content .right-side{
   width: 75%;
   margin-left: 75px;
 }
 .content .right-side .topic-text{
-  font-size: 23px;
+  font-size: 46px;
   font-weight: 600;
-  color: #3e2093;
+  color: #0072bb;
 }
 .right-side .input-box{
   height: 50px;
@@ -323,12 +331,12 @@ section div article p {
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
-  background: #3e2093;
+  background: #0072bb;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .button input[type="button"]:hover{
-  background: #5029bc;
+  background: #4d81a1;
 }
 
 @media (max-width: 950px) {
