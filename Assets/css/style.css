@@ -53,8 +53,7 @@ header.container {
 header nav {
   width: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 35px;
-  display: flex;  /*parent element of <ul> tag*/
+  display: flex;  
   flex-flow: row nowrap;
   justify-content: flex-end;
   align-content: flex-end;
@@ -63,14 +62,17 @@ header nav {
 
 header nav h1.main-header {
   color: var(--light);
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
-  width: 72%;
+  /* width: 68%; */
   display: flex;
+  flex-flow: row nowrap;
+  justify-content:flex-start;
+  align-content:center;
 }
 
 header nav ul {
-  display: flex;   /*parent element of <a> tag*/
+  display: flex;   
   font-size: 25px;
   margin-top: 20px;
 }
@@ -108,7 +110,7 @@ section.container h2 {
   text-align: center;
   margin: auto;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 section.container div {
@@ -125,7 +127,7 @@ section.container div img.profile-pic {
 section.container div.bio-about-me  {
   display: inline;
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
   font-weight:700;
   line-height: 35px;
 }
@@ -142,7 +144,7 @@ section.container div.bio-about-me  {
 #skill-font {
   font-weight: 500;
   padding-bottom: 3%;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 /* Tools section */
@@ -159,6 +161,11 @@ section.container div.bio-about-me  {
 #projects {
   padding-bottom: 4%;
 }
+.projects {
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
+}
 section.projects div {
   flex: 4;
   padding: 20px;
@@ -172,7 +179,7 @@ section.projects h2 {
   text-align: center; 
   margin: auto;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .box-card {
@@ -276,7 +283,7 @@ section.contact h2 {
   text-align: center; 
   margin: auto;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 40px;
   padding-bottom: 2%;
 }
 *.container{
