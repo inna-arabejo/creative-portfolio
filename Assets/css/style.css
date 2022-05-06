@@ -60,16 +60,15 @@ header nav {
 
 }
 
-header nav h1.main-header {
+/* header nav h1.main-header {
   color: var(--light);
   font-size: 50px;
   font-weight: 600;
-  /* width: 68%; */
   display: flex;
   flex-flow: row nowrap;
   justify-content:flex-start;
   align-content:center;
-}
+} */
 
 header nav ul {
   display: flex;   
@@ -261,11 +260,18 @@ section.projects h2 {
 }
 
 /* Repo and technologies used */
-section div article p {
+article p.image-description {
   font-size: 20px;
+  font-weight: 500;
+}
+article p i {
+  font-size: 30px;
   font-weight: 500;
   padding-top: 5px;
   margin-bottom: 5px;
+}
+.fa-github {
+  text-decoration: none;
 }
 
 .box-card h3 {
