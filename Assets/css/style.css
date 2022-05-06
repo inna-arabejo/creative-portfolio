@@ -65,7 +65,8 @@ header nav h1.main-header {
   color: var(--light);
   font-size: 60px;
   font-weight: 600;
-  width: 75%;
+  width: 72%;
+  display: flex;
 }
 
 header nav ul {
