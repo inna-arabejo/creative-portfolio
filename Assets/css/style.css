@@ -17,6 +17,7 @@
 }
 * h2 {
   font-size: 50px;
+  font-weight: bolder;
 }
 
 html {
@@ -29,9 +30,7 @@ body {
   min-height: 100vh;
   width: 100%;
   background: #c8e8e9;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
+
 }
 
 
@@ -99,6 +98,9 @@ section.container h2 {
   padding-top: 20px;
   display: block;
   text-align: center;
+  margin: auto;
+  font-weight: 500;
+  font-size: 50px;
 }
 
 section.container div {
@@ -122,16 +124,33 @@ section.container div.bio-about-me  {
 
 /* Skills section */
 .my-skills {
-  /* background-color: #e2e2e2; */
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 4%;
+  padding-bottom: 1%;
+}
+
+#skill-font {
+  font-weight: 500;
+  padding-bottom: 3%;
+  font-size: 40px;
 }
 
 /* Tools section */
-.my-skills {
-  /* background-color: #e2e2e2; */
+.tools {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 1%;
+  padding-bottom: 5%;
 }
 
 
 /* Projects section */
+#projects {
+  padding-bottom: 5%;
+}
 section.projects div {
   flex: 4;
   padding: 20px;
@@ -144,6 +163,8 @@ section.projects h2 {
   display: block;
   text-align: center; 
   margin: auto;
+  font-weight: 500;
+  font-size: 50px;
 }
 
 .box-card {
@@ -240,8 +261,16 @@ section div article p {
 }
 
 /* Contact Form */
+section.contact h2 {
+  display: block;
+  text-align: center; 
+  margin: auto;
+  font-weight: 500;
+  font-size: 50px;
+  padding-bottom: 2%;
+}
 *.container{
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .container{
   width: 85%;
@@ -251,6 +280,7 @@ section div article p {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 .container .content{
+  margin: 3%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -298,7 +328,7 @@ section div article p {
   margin-left: 75px;
 }
 .content .right-side .topic-text{
-  font-size: 46px;
+  font-size: 30px;
   font-weight: 600;
   color: #0072bb;
 }
@@ -385,22 +415,26 @@ section div article p {
   background-color: var(--footer-light);
   text-align: center;
   width: 100%;
-  margin-bottom: -20px;
-  margin-top: 50px;
+  margin-bottom: -15px;
+  margin-top: 5%;
+  padding-top: 2%;
 }
 
 footer h2 {
   color: var(--light);
-  padding-top: 10px;
 }
 
 #contact > a i{
   display: inline-block;
   margin: 0;
-  padding: 40px;
-  padding-top: 5px;
+  padding: 10px 40px;
   color: var(--light);
   font-size: 50px;
+}
+
+.footer-license {
+  color: aliceblue;
+  font-size: 20px;
 }
 
 
