@@ -296,26 +296,23 @@
             <div class="right-side">
               <div class="topic-text">Let's Connect!</div>
               <p>If you have any questions or would like to reach out, please feel free to send me a message.</p>
-              <form class="contact-form">
-                <div class="input-box">
+              <form action="https://formspree.io/f/xnqwlaaj" method="POST">
+                <label class="input-box">
                   <input type="text" id="name" placeholder="Enter your name">
-                </div>
-                <div class="input-box">
+                </label>
+                <label class="input-box">
                   <input type="text" id="email" placeholder="Enter your email">
-                </div>
-                <div class="input-box">
+                </label>
+                <label class="input-box">
                   <input type="text" id="subject" placeholder="Subject">
-                </div>
-                <div class="input-box message-box">
+                </label>
+                <label class="input-box message-box">
                   <textarea class="form-control" rows="5" id="message" name="text" placeholder="Enter your message"></textarea>
-                </div>
+                </label>
                 <div>
                   <input class="button" type="button" value="Send Now" >
                 </div>
-                <div class="alert alert-success" role="alert" id="status">Submitted Successfully
-                </div>
-                <div class="alert alert-danger" role="alert">
-                  There was an error with your submission. Please try again.
+                <div id="status" role="alert">
                 </div>
               </form>
             </div>

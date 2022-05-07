@@ -396,14 +396,39 @@ section.contact h2 {
 input.button[type="button"]:hover{
   background: #4d81a1;
 }
-.alert {
+#status {
   margin-top: 10px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
 }
-.alert-success {
-  
+#status.success {
+  background-color: #80d359cc;
+  font-weight: 500;
+  animation: status 4s ease forwards;
 }
-.alert-danger {
+#status.error {
+  background-color: #d35d59cc;
+  font-weight: 500;
+  color: #fff;
+  animation: status 4s ease forwards;
+}
 
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
 }
 
 /* Footer */
