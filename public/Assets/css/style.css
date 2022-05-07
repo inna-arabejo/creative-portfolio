@@ -293,7 +293,7 @@ section.contact h2 {
   padding-bottom: 2%;
 }
 *.container{
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .container{
   width: 85%;
@@ -378,11 +378,11 @@ section.contact h2 {
 .right-side .input-box textarea{
   padding-top: 6px;
 }
-.right-side .button{
+.right-side input.button{
   display: inline-block;
   margin-top: 12px;
 }
-.right-side .button input[type="button"]{
+.right-side input.button[type="button"]{
   color: #fff;
   font-size: 18px;
   outline: none;
@@ -393,8 +393,17 @@ section.contact h2 {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.button input[type="button"]:hover{
+input.button[type="button"]:hover{
   background: #4d81a1;
+}
+.alert {
+  margin-top: 10px;
+}
+.alert-success {
+  
+}
+.alert-danger {
+
 }
 
 /* Footer */
